@@ -59,7 +59,9 @@ int main() {
     
     //Partie à compléter pour que :
     // - pta pointe vers a
+    pta = &a;
     // - ptb pointe vers b
+    ptb = &b;
     
     printf("Adresse de a (direct) %p\n",&a);
     printf("Adresse de a %p\n\n",pta);
